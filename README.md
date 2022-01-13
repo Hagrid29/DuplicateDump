@@ -10,7 +10,7 @@ DuplicateDump add custom LSA plugin that duplicate LSASS process handle from the
 
 ## Testing
 
-By loading DuplicateDump in memory, it was able to dump LSASS memory without detection o
+By loading DuplicateDump in memory, it was able to dump LSASS memory without detection on
 
 - Cortex XDR
 - Kaspersky Enterprise
