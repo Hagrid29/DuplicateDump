@@ -2,7 +2,7 @@
 DuplicateDump is a fork of [MirrorDump](https://github.com/CCob/MirrorDump) with following modifications:
 
 - DInovke implementation
-- LSA plugin DLL written in C which could be clean up after dumping LSASS. MirrorDump compile LSA plugin as .NET assembly which would not be unloaded by LSASS process. That's why MirrorDump failed to delete the plugin.
+- LSA plugin DLL written in C++ which could be clean up after dumping LSASS. MirrorDump compile LSA plugin as .NET assembly which would not be unloaded by LSASS process. That's why MirrorDump failed to delete the plugin.
 - PID of dump process (i.e., DuplicateDump) is shared to LSA plugin through named pipe
 - Passing value "0" instead of LSASS PID to MiniDumpWriteDump. This prevent MiniDumpWriteDump from opening its own handle to LSASS
 
