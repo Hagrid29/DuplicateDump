@@ -11,10 +11,12 @@ DuplicateDump add custom LSA plugin that duplicate LSASS process handle from the
 ## Testing
 
 By loading DuplicateDump in memory, it was able to dump LSASS memory without detection on
-
-- Cortex XDR
+- Symantec 14
 - Kaspersky Enterprise
 - Windows Defender
+
+Detected by Cortex XDR, Crowdstrike. Failed to dump lsass without detection on SentinalOne.
+
 
 ## Usage
 
