@@ -163,7 +163,7 @@ namespace DuplicateDump{
                  .Add("f=|filename=", "The path to write the dump file to", v => fileName = v)
                  .Add("p=|plugin=", "Full file path to LSA plugin", v => plugin = v)
                  .Add("c|compress", "GZip and delete the dump file on disk", v => isCompress = true)
-                 .Add("d|DebugPriv", "Obtain SeDebugPrivilege", v => isCompress = true)
+                 .Add("d|DebugPriv", "Obtain SeDebugPrivilege", v => isDebugPriv = true)
                  .Add("h|help", "Display this help", v => showHelp = v != null);
 
             try {
