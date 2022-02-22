@@ -11,7 +11,7 @@ DuplicateDump add custom LSA plugin that duplicate LSASS process handle from the
 ## Testing
 
 By loading DuplicateDump in memory, it was able to dump LSASS memory without detection on
-- Symantec 14
+- Symantec 14.2
 - Kaspersky Enterprise
 - Windows Defender
 
